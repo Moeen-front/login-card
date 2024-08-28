@@ -1,0 +1,116 @@
+@font-face {
+    font-family: laleh;
+    src: url(/Lalezar-Font/OTF/Lalezar-Regular.otf),
+    url(/Lalezar-Font/TTF/Lalezar-Regular.ttf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    min-height: 90vh;
+    background-image:url(/Jowhareh_galleries_3_poster_57207234-3896-4ee8-b377-7fb23221cf46.jpeg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+section{
+    width: 450px;
+    height: 600px;
+    background-color: transparent;
+    backdrop-filter: blur(55px);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    margin: 200px auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 40px;
+    animation: form 1s ease forwards;
+
+}
+form{
+    margin: 0 auto;
+
+}
+form h1{
+    
+    color: white;
+    text-align: center;
+    margin-top: 35px;
+    font-size: 60px;
+    font-family: laleh;
+}
+.input .email{
+    width:300px ;
+    padding: 10px ;
+    margin-top: 20px;
+    border: none;
+    background: none;
+    border-bottom: 3px solid #fff;
+    font-size: 15px;
+    color:#fff;
+
+    
+}
+
+
+.input .pas{
+    width:300px ;
+    padding: 10px ;
+    margin-top: 20px;
+    border: none;
+    background: none;
+    border-bottom: 3px solid #fff;
+    color: #fff;
+    font-size: 15px;
+
+}
+form i{
+    font-size: 18px;
+    padding-left: 15px;
+    color: white;
+}
+form input[type=submit]{
+    display: block;
+    font-size: 20px;
+    font-family: laleh;
+    margin: 50px auto;
+    color: rgb(129, 129, 129);
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    text-align: center;
+    padding: 10px;
+}
+form  p{
+    font-size: 15px;
+    font-family: laleh;
+    text-align: center;
+}
+form input[type=radio]{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+@keyframes form {
+    from{
+        transform: scale(40%);
+    }
+    
+}
